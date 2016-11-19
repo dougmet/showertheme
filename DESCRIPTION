@@ -1,5 +1,5 @@
-Package: rmdshower
-Title: 'R' 'Markdown' Format for 'shower' Presentations
+Package: showertheme
+Title: An theme extension for rmdshower
 Version: 2.0.0
 Authors@R: c(
     person("Vadim", "Makeev", role = c("aut", "cph"),
@@ -18,18 +18,16 @@ Authors@R: c(
        comment = "shower, https://github.com/shower/shower"),
     person("Gábor", "Csárdi", role = c("aut", "cre"),
        email = "gcsardi@mango-solutions.com"),
-    person("JJ", "Allaire", role = c("aut"), email = "jj@rstudio.com"),
-    person(family = "RStudio", role = "cph"),
     person(family = "Mango Solutions", role = "cph")
   )
-Description: 'R' 'Markdown' format for 'shower' presentations, see
-   <https://github.com/shower/shower>.
+Description: Extend the rmdshower package with your own theme. This is a template for how to make your own package with a theme.
 License: MIT + file LICENSE
-URL: https://github.com/mangothecat/rmdshower
-BugReports: https://github.com/mangothecat/rmdshower/issues
+URL: https://github.com/dougmet/showertheme
+BugReports: https://github.com/dougmet/showertheme/issues
 Depends:
     R (>= 3.0)
 Imports:
-    rmarkdown (>= 0.3.3)
+    rmarkdown (>= 0.3.3),
+    rmdshower
 RoxygenNote: 5.0.1
 Encoding: UTF-8
